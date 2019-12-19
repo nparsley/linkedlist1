@@ -47,7 +47,7 @@ end
 
 
   def reverse_list(list)                                    #-1st node becomes nil when reversing(left to right then right to left)  
-    stack = Stack.newly                                     #need to create a new stack when reversing this list 
+    stack = Stack.new                                     #need to create a new stack when reversing this list 
       while list 
          (list.value)
         
